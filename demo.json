@@ -1,0 +1,56 @@
+{
+    "inbounds": [
+        {
+            "port": 10086,
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "cf10ae18-7f48-42f0-bc73-f988313dc8c1",
+                        "level": 1,
+                        "alterId": 64
+                    }
+                ]
+            }
+        }
+    ],
+    "outbounds": [
+        {
+            "protocol": "vmess",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "ed633b0b-2733-4146-a121-103ef615e84b.dbf34cdb-8620-4ce9-975e-206a0593b502.smartprivatelink.com",
+                        "port": 30000,
+                        "users": [
+                            {
+                                "id": "01d92c62-dcd2-4dfe-bd78-9c8aa6be759",
+                                "alterId": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
+}
+{
+"protocol": "blackhole",
+"settings": {},
+"tag": "blocked"
+}
+]
+}
+
+    "v": "2",
+"ps": "\u7f8e\u56fd 04 | \u4e13\u7ebf | 20\u500d\u6d41\u91cf",
+"add": "ed633b0b-2733-4146-a121-103ef615e84b.dbf34cdb-8620-4ce9-975e-206a0593b502.smartprivatelink.com",
+"port": "30000",
+"id": "01d92c62-dcd2-4dfe-bd78-9c8aa6b4e759",
+"aid": "0",
+"net": "tcp",
+"type": "none",
+"host": "",
+"path": "",
+"tls": ""
